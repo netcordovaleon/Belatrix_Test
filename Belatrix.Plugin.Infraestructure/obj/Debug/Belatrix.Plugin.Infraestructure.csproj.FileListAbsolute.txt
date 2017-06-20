@@ -1,0 +1,6 @@
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure\bin\Debug\Belatrix.Plugin.Infraestructure.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure\bin\Debug\Belatrix.Plugin.Infraestructure.pdb
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure\bin\Debug\NLog.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure\bin\Debug\NLog.xml
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure\obj\Debug\Belatrix.Plugin.Infraestructure.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure\obj\Debug\Belatrix.Plugin.Infraestructure.pdb

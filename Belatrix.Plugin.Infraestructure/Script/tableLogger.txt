@@ -1,0 +1,15 @@
+﻿create database belatrixLogg
+go
+
+use belatrixLogg
+go
+
+create table tm_logger
+(
+codLogger int primary key identity(1,1),
+typeLogger int,
+messageLogger varchar(500),
+dateInsertLogger datetime default getdate(),
+userInsertLogger varchar(50) default 'System'
+)
+go

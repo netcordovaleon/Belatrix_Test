@@ -1,0 +1,14 @@
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\Belatrix.Plugin.Infraestructure.DataBase.dll.config
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\Belatrix.Plugin.Infraestructure.DataBase.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\Belatrix.Plugin.Infraestructure.DataBase.pdb
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\Belatrix.Plugin.Infraestructure.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\EntityFramework.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\NLog.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\Belatrix.Plugin.Infraestructure.pdb
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\EntityFramework.xml
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\bin\Debug\NLog.xml
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\obj\Debug\Belatrix.Plugin.Infraestructure.DataBase.csprojResolveAssemblyReference.cache
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\obj\Debug\Belatrix.Plugin.Infraestructure.DataBase.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.Infraestructure.DataBase\obj\Debug\Belatrix.Plugin.Infraestructure.DataBase.pdb

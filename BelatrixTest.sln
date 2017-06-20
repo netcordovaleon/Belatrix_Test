@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Infraestructure", "01. Infraestructure", "{F01E4710-FC4C-4135-8FE4-A5EB16828BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.Infraestructure", "Belatrix.Plugin.Infraestructure\Belatrix.Plugin.Infraestructure.csproj", "{55B52F75-AA0C-4D11-824D-36EAFBC94DB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Logger Interfaces", "02. Logger Interfaces", "{42B05327-2F70-423D-8CF5-ABDC51792409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Logger Implementation", "03. Logger Implementation", "{CA3A770A-B221-4D5B-AA63-5CCEECBBAA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.Contract.Logger", "Belatrix.Plugin.Contract.Logger\Belatrix.Plugin.Contract.Logger.csproj", "{0ED29ACD-8DCC-4371-A9B7-AD96819D7E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.DataBase.Logger", "Belatrix.Plugin.DataBase.Logger\Belatrix.Plugin.DataBase.Logger.csproj", "{BB4F337E-A8F2-4D94-A270-189BD5FF8A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.File.Logger", "Belatrix.Plugin.File.Logger\Belatrix.Plugin.File.Logger.csproj", "{BEBCAAE4-A02A-467A-AF72-9CE4CA237698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.Console.Logger", "Belatrix.Plugin.Console.Logger\Belatrix.Plugin.Console.Logger.csproj", "{42FD4C8D-2A5E-4418-90FB-6EB466C31452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Logger App Run", "05. Logger App Run", "{EB60549E-262A-4927-B8F3-2A7F27B1FD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.Run.Logger", "Belatrix.Plugin.Run.Logger\Belatrix.Plugin.Run.Logger.csproj", "{E67DFE22-91CC-401E-A863-689DC77BA696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Logger Configuration", "04. Logger Configuration", "{D10F2CE3-A892-4206-AE29-3A3E1C82256E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.Core.Logger", "Belatrix.Plugin.Core.Logger\Belatrix.Plugin.Core.Logger.csproj", "{5E8C073F-ACB6-4333-8D0B-751F9BB7509E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.AppDomain.Logger", "Belatrix.Plugin.AppDomain.Logger\Belatrix.Plugin.AppDomain.Logger.csproj", "{1B4366FA-49FE-4647-A33D-B339446D4311}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Readme", "00. Readme", "{FAD44E3D-D2A1-4712-BFFD-2C190EA7DF4B}"
+	ProjectSection(SolutionItems) = preProject
+		LEER.txt = LEER.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Logger Test", "06. Logger Test", "{9820F641-B06E-49AD-B35B-058F3ABCC466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.UnitTest", "Belatrix.Plugin.Test.Configuration\Belatrix.Plugin.UnitTest.csproj", "{2C149E82-BE5A-4EA3-ADFB-D7BF1A46A24F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{59C1C9AD-9CB1-471D-8E7D-6F0EE45DD5F6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.Plugin.Infraestructure.DataBase", "Belatrix.Plugin.Infraestructure.DataBase\Belatrix.Plugin.Infraestructure.DataBase.csproj", "{0D06311D-D7B0-4B1E-8538-2A5FBD09D2C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B52F75-AA0C-4D11-824D-36EAFBC94DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B52F75-AA0C-4D11-824D-36EAFBC94DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B52F75-AA0C-4D11-824D-36EAFBC94DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B52F75-AA0C-4D11-824D-36EAFBC94DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED29ACD-8DCC-4371-A9B7-AD96819D7E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED29ACD-8DCC-4371-A9B7-AD96819D7E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED29ACD-8DCC-4371-A9B7-AD96819D7E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED29ACD-8DCC-4371-A9B7-AD96819D7E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4F337E-A8F2-4D94-A270-189BD5FF8A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4F337E-A8F2-4D94-A270-189BD5FF8A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4F337E-A8F2-4D94-A270-189BD5FF8A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4F337E-A8F2-4D94-A270-189BD5FF8A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBCAAE4-A02A-467A-AF72-9CE4CA237698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBCAAE4-A02A-467A-AF72-9CE4CA237698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBCAAE4-A02A-467A-AF72-9CE4CA237698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBCAAE4-A02A-467A-AF72-9CE4CA237698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42FD4C8D-2A5E-4418-90FB-6EB466C31452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FD4C8D-2A5E-4418-90FB-6EB466C31452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FD4C8D-2A5E-4418-90FB-6EB466C31452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FD4C8D-2A5E-4418-90FB-6EB466C31452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67DFE22-91CC-401E-A863-689DC77BA696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67DFE22-91CC-401E-A863-689DC77BA696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67DFE22-91CC-401E-A863-689DC77BA696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67DFE22-91CC-401E-A863-689DC77BA696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8C073F-ACB6-4333-8D0B-751F9BB7509E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8C073F-ACB6-4333-8D0B-751F9BB7509E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8C073F-ACB6-4333-8D0B-751F9BB7509E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8C073F-ACB6-4333-8D0B-751F9BB7509E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4366FA-49FE-4647-A33D-B339446D4311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4366FA-49FE-4647-A33D-B339446D4311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4366FA-49FE-4647-A33D-B339446D4311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4366FA-49FE-4647-A33D-B339446D4311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C149E82-BE5A-4EA3-ADFB-D7BF1A46A24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C149E82-BE5A-4EA3-ADFB-D7BF1A46A24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C149E82-BE5A-4EA3-ADFB-D7BF1A46A24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C149E82-BE5A-4EA3-ADFB-D7BF1A46A24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D06311D-D7B0-4B1E-8538-2A5FBD09D2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D06311D-D7B0-4B1E-8538-2A5FBD09D2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D06311D-D7B0-4B1E-8538-2A5FBD09D2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D06311D-D7B0-4B1E-8538-2A5FBD09D2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55B52F75-AA0C-4D11-824D-36EAFBC94DB7} = {F01E4710-FC4C-4135-8FE4-A5EB16828BF3}
+		{0D06311D-D7B0-4B1E-8538-2A5FBD09D2C7} = {F01E4710-FC4C-4135-8FE4-A5EB16828BF3}
+		{0ED29ACD-8DCC-4371-A9B7-AD96819D7E46} = {42B05327-2F70-423D-8CF5-ABDC51792409}
+		{BB4F337E-A8F2-4D94-A270-189BD5FF8A9E} = {CA3A770A-B221-4D5B-AA63-5CCEECBBAA54}
+		{BEBCAAE4-A02A-467A-AF72-9CE4CA237698} = {CA3A770A-B221-4D5B-AA63-5CCEECBBAA54}
+		{42FD4C8D-2A5E-4418-90FB-6EB466C31452} = {CA3A770A-B221-4D5B-AA63-5CCEECBBAA54}
+		{E67DFE22-91CC-401E-A863-689DC77BA696} = {EB60549E-262A-4927-B8F3-2A7F27B1FD21}
+		{5E8C073F-ACB6-4333-8D0B-751F9BB7509E} = {D10F2CE3-A892-4206-AE29-3A3E1C82256E}
+		{1B4366FA-49FE-4647-A33D-B339446D4311} = {D10F2CE3-A892-4206-AE29-3A3E1C82256E}
+		{2C149E82-BE5A-4EA3-ADFB-D7BF1A46A24F} = {9820F641-B06E-49AD-B35B-058F3ABCC466}
+	EndGlobalSection
+EndGlobal

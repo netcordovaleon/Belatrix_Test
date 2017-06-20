@@ -1,0 +1,11 @@
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\bin\Debug\Belatrix.Plugin.AppDomain.Logger.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\bin\Debug\Belatrix.Plugin.AppDomain.Logger.pdb
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\bin\Debug\Belatrix.Plugin.Contract.Logger.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\bin\Debug\Belatrix.Plugin.Infraestructure.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\bin\Debug\NLog.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\bin\Debug\Belatrix.Plugin.Contract.Logger.pdb
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\bin\Debug\Belatrix.Plugin.Infraestructure.pdb
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\bin\Debug\NLog.xml
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\obj\Debug\Belatrix.Plugin.AppDomain.Logger.csprojResolveAssemblyReference.cache
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\obj\Debug\Belatrix.Plugin.AppDomain.Logger.dll
+C:\lcordova\proyectos\pluggable\BelatrixTest\Belatrix.Plugin.AppDomain.Logger\obj\Debug\Belatrix.Plugin.AppDomain.Logger.pdb

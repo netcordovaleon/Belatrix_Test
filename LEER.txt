@@ -1,0 +1,52 @@
+**********************************************************************
+Autor: LUIS ALEX CORDOVA LEON
+**********************************************************************
+
+SCRIPT DE BASE DE DATOS (SQL Server): IMPORTANTE
+====================================
+create database belatrixLogg
+go
+
+use belatrixLogg
+go
+
+create table tm_logger
+(
+codLogger int primary key identity(1,1),
+typeLogger int,
+messageLogger varchar(500),
+dateInsertLogger datetime default getdate(),
+userInsertLogger varchar(50) default 'System'
+)
+go
+
+INSTRUCCIONES DE CONFIGURACION:
+==============================
+Si se abre desde la solucion con Visual Studio:
+
+1) Para que se pueda ejecutar la aplicación el proyecto "Belatrix.Plugin.Run.Logger" debe estar como Proyecto de Inicio.
+2) Asegurarse que en el archivo App.Config, la llave "BelatrixLoggerContext" contenga la cadena de conexion correcta segun la configuración de su Motor de BD SQL Server.
+3) Iniciar la Aplicación.
+
+Si queremos ingresar directo sin Visual Studio:
+
+1) Ingresar a la ruta "BelatrixTest\Belatrix.Plugin.Run.Logger".
+2) Asegurarse que en el archivo App.Config, la llave "BelatrixLoggerContext" contenga la cadena de conexion correcta segun la configuración de su Motor de BD SQL Server.
+3) Ingresar a la ruta "BelatrixTest\Belatrix.Plugin.Run.Logger\bin\Debug".
+4) Buscar el archivo "Belatrix.Plugin.Run.Logger.exe" y ejecutarlo.
+
+
+INSTRUCCIONES DE USO DE PLUGGINS:
+================================
+
+1) Ruta donde se encuentran los PLUGGINS "BelatrixTest\Belatrix.Plugin.Run.Logger\bin\Debug\Plugins"
+1.1) Los pluggins son los siguientes:
+	- Belatrix.Plugin.Console.Logger.dll  => Este pluggin muestra en consola los datos ingresados
+	- Belatrix.Plugin.DataBase.Logger.dll => Este pluggin graba en BD (SQL Server) los datos ingresados
+	- Belatrix.Plugin.File.Logger.dll     => Este plugin graba en archivo .TXT los datos ingresados.
+2) Si desea quitar alguna funcionalidad debe eliminar un pluggins de la carpeta "BelatrixTest\Belatrix.Plugin.Run.Logger\bin\Debug\Plugins"
+3) Los resultados se muestras de la siguiente manera:
+	- Pluggin Consola: Se muestra el mensaje en la consola.
+	- Plugin Base de datos: Se graba en la tabla "tm_logger"
+	- Plugin archivo TXT: Se graba en la ruta "BelatrixTest\Belatrix.Plugin.Run.Logger\bin\Debug\LoggerFileResult" dentro de un archivo que tiene como nombre la fecha actual.
+
